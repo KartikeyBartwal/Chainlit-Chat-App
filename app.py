@@ -1,6 +1,6 @@
 import chainlit as cl
 import os
-os.environ["REPLICATE_API_TOKEN"] = "r8_4SFZJIpC0sSkq7ltoaGeTuQTw1gPBTF4W7Ytl"
+os.environ["REPLICATE_API_TOKEN"] = "r8_KyNcPW6Sq02hFaSUGKPhAVW2WTari2f3KywRZ"
 print(os.environ.get("REPLICATE_API_TOKEN"))
 from langchain.llms import Replicate
 from langchain import PromptTemplate, LLMChain
